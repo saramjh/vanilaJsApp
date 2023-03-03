@@ -1,0 +1,54 @@
+@import url(reset.css);
+
+.hidden {
+	display: none;
+}
+
+#greeting {
+	color: beige;
+}
+#login-form {
+	margin-bottom: 10px;
+}
+
+li {
+	color: white;
+	font-size: 1.3rem;
+}
+
+li input {
+	font-size: 0.8rem;
+}
+
+#clock {
+	color: white;
+	font-size: 5rem;
+}
+
+hr {
+	background: rgb(255, 255, 255);
+	height: 4px;
+	border: 0;
+	text-align: center;
+}
+
+.quote {
+	color: rgb(255, 255, 255);
+}
+
+.container-sm {
+	background-color: rgba(31, 31, 31, 0.5);
+	border-radius: 10px;
+}
+
+#weather {
+	background-color: rgba(31, 31, 31, 0.5);
+	border-radius: 5px;
+	padding: 20px 15px;
+	color: white;
+	display: block;
+	float: right;
+	position: absolute;
+	bottom: 40px;
+	right: 50px;
+}
